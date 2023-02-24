@@ -1,0 +1,130 @@
+
+12+12
+24
+
+0504538+00560123
+SyntaxError: leading zeros in decimal integer literals are not permitted;
+use an 0o prefix for octal integers
+
+
+504538+00560123
+SyntaxError: leading zeros in decimal integer literals are not permitted;
+use an 0o prefix for octal integers
+
+
+504538+560123
+1064661
+
+print("hello world")
+hello world
+
+
+print(chr(3129))
+హ
+
+print(chr(3129)+chr(3183))
+హ౯
+ 
+======== name in telugu.py =========
+హఫస
+ 
+=======  name in telugu.py ==========
+హఫససదియ
+ 
+=======  name in telugu.py =========
+ (most recent call last):
+  File "C:/Users/PC-23/Documents/name in telugu.py", line 1, in <module>
+    print(chr(3129)+chr(3115)+ chr(3128) +chr('')+ chr(3128)+chr(3110)+chr(3135)+chr(3119))
+TypeError: 'str' object cannot be interpreted as an integer
+ 
+======== name in telugu.py ============
+హఫససదియ
+ 
+=========== name in telugu.py =============
+హఫస  సదియ
+ 
+============  name in telugu.py ==========
+print(chr(3129)+chr(3115)+ chr(3128) + '\t'+ chr(3128)+ chr(3134) +chr(3110)+chr(3135)+chr(3119))
+
+హఫస  సాదియ
+
+#identifiers
+
+a=1
+_2=11
+_a=22
+#a=1
+ad44=1
+f4
+ (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    f4
+NameError: name 'f4' is not defined
+sum u =2
+SyntaxError: invalid syntax
+sumone=2
+sum_one=33
+
+u=1
+print(u)
+1
+print("r")
+r
+print('u')
+u
+
+type(4)
+<class 'int'>
+type(7.88)
+<class 'float'>
+type(a)
+<class 'int'>
+type(z)
+ (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    type(z)
+NameError: name 'z' is not defined
+type(3+6j)
+<class 'complex'>
+type(7j+3)
+<class 'complex'>
+type(5+7i)
+SyntaxError: invalid decimal literal
+type(true)
+ (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    type(true)
+NameError: name 'true' is not defined. Did you mean: 'True'?
+type(True)
+<class 'bool'>
+#case sensitive
+type("hafsa")
+<class 'str'>
+type('hafsa')
+<class 'str'>
+
+
+bool(0)
+False
+int(55.9)
+55
+float(8)
+8.0
+
+
+id(8)    #memory address 
+1994062692816
+id(99)
+1994062695728
+
+
+isinstance(5,int)
+True
+isinstance(4,float)
+False
+isinstance(True,bool)
+True
+ 
+ 
+
+ 
